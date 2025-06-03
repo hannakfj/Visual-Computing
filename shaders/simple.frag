@@ -5,7 +5,7 @@ in vec3 fragPos;      // The fragment position in world space
 in vec4 fragColor;  
 
 uniform vec3 viewPos;      // Position of the camera/viewer
-uniform vec3 lightColor;   // Color of the light (e.g., white light)
+uniform vec3 lightColor;   
  
 // Output color to the framebuffer
 out vec4 outputColor;
